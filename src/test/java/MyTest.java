@@ -9,4 +9,9 @@ public class MyTest {
     public void test(){
        assertEquals(5,5);
     }
+
+    @Test
+    public void testFail(){
+        assertEquals(2,2);
+    }
 }
