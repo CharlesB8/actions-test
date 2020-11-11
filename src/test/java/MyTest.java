@@ -12,6 +12,8 @@ public class MyTest {
 
     @Test
     public void testFail(){
+        System.out.println("fixed");
         assertEquals(2,2);
     }
+
 }
